@@ -20,14 +20,3 @@ redux
 react-redux
 
 React Router is not actually being used.
-NB react-router-dom webpack config:
-
-output: {
-    filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist'),
-*    publicPath: '/'
-  },
-  devServer: {
-*    historyApiFallback: true,
-    contentBase: './dist'
-  },
